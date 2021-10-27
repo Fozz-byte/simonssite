@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200;300;400;700&family=Roboto+Slab:wght@200;300;400;500;600;700;800;900&display=swap');
+
+html {
+  height: 100%;
+}
+
+body {
+  height: 100vh;
+  margin: 0;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background: hsla(46, 73%, 75%, 1);
+
+  background: linear-gradient(90deg, hsla(46, 73%, 75%, 1) 0%, hsla(176, 73%, 88%, 1) 100%);
+
+  background: -moz-linear-gradient(90deg, hsla(46, 73%, 75%, 1) 0%, hsla(176, 73%, 88%, 1) 100%);
+
+  /* background: -webkit-linear-gradient(90deg, hsla(46, 73%, 75%, 1) 0%, hsla(176, 73%, 88%, 1) 100%); */
+
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#EED991", endColorstr="#CCF7F4", GradientType=1 );
+  text-decoration: none;
+}
+
+h1 {
+color: #9A9483;
+font-size: 48px;
+font-weight: 900;
+font-family: 'Roboto Mono', monospace;
+font-family: 'Roboto Slab', serif;
+}
+
+h2 {
+color: #9A9483;
+font-size: 32px;
+font-weight: 600;
+font-family: 'Roboto Mono', monospace;
+font-family: 'Roboto Slab', serif;
+}
+
+p {
+color: #9A9483;
+font-size: 32px;
+font-weight: 400;
+font-family: 'Roboto Mono', monospace;
+font-family: 'Roboto Slab', serif;
+}
+
+
+.mac {
+  width: 85%;
+  margin: 24px auto;
+}
+
+.hello {
+  /* background-color: white; */
+    width: 600px;
+    margin: 24px auto;
+    padding: 24px;
+    /* box-shadow: 2px 2px 16px rgb(0,0,0,0.1); */
+    text-align: center;
+}
+.card {
+    /* background-color: white; */
+    width: 600px;
+    margin: 24px auto;
+    padding: 24px;
+    /* box-shadow: 2px 2px 16px rgb(0,0,0,0.1); */
+    text-align: center;
+}
+
+.btn-contact {
+    display: inline-block;
+    padding: 16px;
+    background: #9A9483;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    margin: auto;
+    font-family: 'Roboto Mono', monospace;
+    font-family: 'Roboto Slab', serif;
+}
+
+.btn-contact:hover {
+  background-color: #eebe1f;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0;
+}
+
+.list-inline i {
+    font-size: 40px;
+    color: #9A9483;
+}
+
+.list-inline i:hover {
+    color: #eebe1f;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0 10px
+}
+
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+    margin: auto;
+
+}
+.mac {
+  width: 85%;
+  margin: auto;
+}
+
+.hello {
+    width: 150px;
+    margin: auto;
+    padding: 24px;
+    text-align: center; }
+
+.card {
+    width: 150px;
+    margin: auto;
+    padding: 10px;
+    text-align: center;}
+
+  h1 {
+  font-size: 24px;
+  font-weight: 900;
+  font-family: 'Roboto Mono', monospace;
+  font-family: 'Roboto Slab', serif;
+  }
+
+  h2 {
+  color: #9A9483;
+  font-size: 24px;
+  font-weight: 600;
+  font-family: 'Roboto Mono', monospace;
+  font-family: 'Roboto Slab', serif;
+  }
+
+  p {
+  color: #9A9483;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: 'Roboto Mono', monospace;
+  font-family: 'Roboto Slab', serif;
+  }
+
+  .list-inline i {
+    font-size: 24px;
+    color: #9A9483;
+}
+
+}
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+}
+}
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+}
+}
